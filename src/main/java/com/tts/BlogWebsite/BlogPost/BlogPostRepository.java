@@ -1,4 +1,4 @@
-package BlogPost;
+package com.tts.BlogWebsite.BlogPost;
 
 import org.springframework.data.repository.CrudRepository;
 

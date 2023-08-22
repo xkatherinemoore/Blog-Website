@@ -32,19 +32,15 @@
                 </a>
               </div>
               <!--  Link to Destroy -->
-              <div class="card-footer">
-                <a href="#" th:href="@{blogposts/{id}(id=${blog.id})}">
-                  <button class="btn btn-light">Edit Post</button>
-                </a>
-                <a href="#" th:href="@{blogposts/delete/{id}(id=${blog.id})}">
-                  <button class="btn btn-danger" type="submit">Delete Post</button>
-                </a>
-              </div>
+              <a href="#" th:href="@{blogposts/delete/{id}(id=${blog.id})}">
+                <button class="btn btn-danger" type="submit">Delete Post</button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
 
