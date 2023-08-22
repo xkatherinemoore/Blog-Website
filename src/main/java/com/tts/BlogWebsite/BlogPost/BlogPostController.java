@@ -74,6 +74,9 @@ public class BlogPostController {
 			actualPost.setBlogEntry(blogPost.getBlogEntry());
 			blogPostRepository.save(actualPost);
 			model.addAttribute("blogPost", actualPost);
+			model.addAttribute("title", blogPost.getTitle());
+			model.addAttribute("author", blogPost.getAuthor());
+			model.addAttribute("blogEntry", blogPost.getBlogEntry());
 		}
 
 		return "blogpost/result";
