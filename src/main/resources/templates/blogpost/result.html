@@ -26,7 +26,7 @@
                 <button class="btn btn-light">Edit Post</button>
               </a>
               <a href="#" th:href="@{~/blogposts/delete/{id}(id=${blogPost.id})}">
-                <button class="btn btn-danger" type="submit">Delete Post</button>
+                <button class="btn btn-danger del" type="submit">Delete Post</button>
               </a>
               <a th:href="@{/}"><button class="btn btn-success">Back To Home Page</button></a>
               <a th:href="@{/blogposts/new}"><button class="btn btn-primary">Submit a New Blog Post</button></a>
